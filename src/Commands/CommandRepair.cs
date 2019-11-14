@@ -65,12 +65,14 @@ namespace Essentials.Commands
 
             void Repair(UnturnedPlayer player)
             {
-                for (byte page = 0; page < 7; page++)//7, becuase there are currently 7 types of wear where player possibly can store items: EItemType.HAT/PANTS/SHIRT/MASK/BACKPACK/VEST/GLASSES
+                for (byte i = 0; i < player.Player.inventory.items.Length; i++)//7, becuase there are currently 7 types of wear where player possibly can store items: EItemType.HAT/PANTS/SHIRT/MASK/BACKPACK/VEST/GLASSES
                 {
-                    var itemsCount = player.Inventory.getItemCount(page);
+                    if (player.Player.inventory.items[i] == null)
+                        continue;
+                    byte itemsCount = player.Inventory.getItemCount(i);
                     for (byte index = 0; index < itemsCount; index++)
                     {
-                        player.Inventory.sendUpdateQuality(page, player.Inventory.getItem(page, index).x, player.Inventory.getItem(page, index).y, 100);
+                        player.Inventory.sendUpdateQuality(i, player.Inventory.getItem(i, index).x, player.Inventory.getItem(i, index).y, 100);
                     }
                 }
             }

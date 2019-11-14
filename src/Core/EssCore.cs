@@ -23,7 +23,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -49,7 +48,6 @@ using Essentials.Compatibility.Hooks;
 using Essentials.Economy;
 using Essentials.Logging;
 using Essentials.Misc;
-using Newtonsoft.Json.Linq;
 using Rocket.Core;
 using Rocket.Core.Plugins;
 using Rocket.Core.Commands;
@@ -57,7 +55,8 @@ using Rocket.Unturned.Player;
 using SDG.Unturned;
 using Steamworks;
 
-namespace Essentials.Core {
+namespace Essentials.Core
+{
 
     public sealed class EssCore : RocketPlugin {
 
