@@ -1,0 +1,93 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Commands/CommandRepair.cs">
+    <Files>
+      <File FileName="src/Commands/CommandEssentials.cs" Line="1" Column="1" />
+      <File FileName="src/Updater/GithubUpdater.cs" />
+      <File FileName="src/Commands/CommandHome.cs" />
+      <File FileName="src/NativeModules/Kit/Commands/CommandKit.cs" />
+      <File FileName="src/NativeModules/Kit/Commands/CommandKits.cs" />
+      <File FileName="src/NativeModules/Kit/Commands/CommandDropKit.cs" />
+      <File FileName="src/NativeModules/Kit/Kit.cs" />
+      <File FileName="src/NativeModules/Kit/KitEventHandler.cs" />
+      <File FileName="src/NativeModules/Kit/KitManager.cs" />
+      <File FileName="src/Core/Storage/IData.cs" />
+      <File FileName="src/NativeModules/Kit/KitModule.cs" />
+      <File FileName="src/NativeModules/Kit/Commands/CommandCreateKit.cs" />
+      <File FileName="src/NativeModules/Kit/Commands/CommandEditKit.cs" />
+      <File FileName="src/Compatibility/Hook.cs" />
+      <File FileName="src/Compatibility/HookManager.cs" />
+      <File FileName="src/Updater/IUpdater.cs" />
+      <File FileName="src/Updater/UpdateResult.cs" />
+      <File FileName="src/Core/EssCore.cs" />
+      <File FileName="src/Api/Task/AsyncTaskExecutor.cs" />
+      <File FileName="src/Commands/CommandRepair.cs" Line="76" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="uEssentials" expanded="True">
+            <Node name="uEssentials" expanded="True">
+              <Node name="default" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="src" expanded="True">
+                <Node name="Api" expanded="True">
+                  <Node name="Command" expanded="True">
+                    <Node name="Source" expanded="True" />
+                  </Node>
+                  <Node name="Events" expanded="True" />
+                  <Node name="Metadata" expanded="True" />
+                  <Node name="Module" expanded="True" />
+                  <Node name="Permission" expanded="True" />
+                  <Node name="Task" expanded="True" />
+                  <Node name="Unturned" expanded="True" />
+                </Node>
+                <Node name="CodeAnalysis" expanded="True" />
+                <Node name="Commands" expanded="True">
+                  <Node name="CommandRepair.cs" selected="True" />
+                </Node>
+                <Node name="Common" expanded="True">
+                  <Node name="Util" expanded="True" />
+                </Node>
+                <Node name="Compatibility" expanded="True">
+                  <Node name="Hooks" expanded="True" />
+                </Node>
+                <Node name="Components" expanded="True">
+                  <Node name="Player" expanded="True" />
+                </Node>
+                <Node name="Configuration" expanded="True" />
+                <Node name="Core" expanded="True">
+                  <Node name="Command" expanded="True" />
+                  <Node name="Event" expanded="True" />
+                  <Node name="Storage" expanded="True" />
+                </Node>
+                <Node name="Economy" expanded="True" />
+                <Node name="Event" expanded="True">
+                  <Node name="Handling" expanded="True" />
+                </Node>
+                <Node name="I18n" expanded="True" />
+                <Node name="Json" expanded="True">
+                  <Node name="Converters" expanded="True" />
+                </Node>
+                <Node name="Logging" expanded="True" />
+                <Node name="Misc" expanded="True" />
+                <Node name="NativeModules" expanded="True">
+                  <Node name="Kit" expanded="True">
+                    <Node name="Commands" expanded="True" />
+                    <Node name="Data" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Updater" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

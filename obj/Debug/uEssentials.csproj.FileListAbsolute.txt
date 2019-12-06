@@ -1,0 +1,10 @@
+/Users/Test/Documents/GitHub/uEssentials/bin/uEssentials.dll
+/Users/Test/Documents/GitHub/uEssentials/bin/uEssentials.pdb
+/Users/Test/Documents/GitHub/uEssentials/bin/Rocket.API.dll
+/Users/Test/Documents/GitHub/uEssentials/bin/Rocket.Core.dll
+/Users/Test/Documents/GitHub/uEssentials/bin/UnityEngine.CoreModule.dll
+/Users/Test/Documents/GitHub/uEssentials/bin/UnityEngine.PhysicsModule.dll
+/Users/Test/Documents/GitHub/uEssentials/obj/Debug/uEssentials.csprojAssemblyReference.cache
+/Users/Test/Documents/GitHub/uEssentials/obj/Debug/uEssentials.csproj.CopyComplete
+/Users/Test/Documents/GitHub/uEssentials/obj/Debug/uEssentials.dll
+/Users/Test/Documents/GitHub/uEssentials/obj/Debug/uEssentials.pdb
